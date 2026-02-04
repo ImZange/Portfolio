@@ -12,7 +12,6 @@ function App() {
       <section>
         <h2>Mi Stack Tecnológico</h2>
         <p>Python, Docker, SQL y Azure</p>
-        {/* Usamos el nombre que le dimos en el import entre llaves */}
         <img src={gaturrona} alt="Mi Imagen" style={{ width: '300px' }} />
       </section>
     </div>
