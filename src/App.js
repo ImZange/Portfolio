@@ -11,6 +11,10 @@ function App() {
         <h2>Mi Stack Tecnológico</h2>
         <p>Python, Docker, SQL y Azure</p>
       </section>
+      <div>
+        <h2>Image holder</h2>
+        <img src="public\Sources_Images\gaturroña.jpg" alt="My Image"></img>
+      </div>
     </div>
   );
 }
