@@ -1,6 +1,7 @@
 import React from 'react';
 // Importamos la imagen dándole un nombre (puedes llamarle gaturrona)
-import gaturrona from './Sources_Images/gaturrona.jpg'; 
+import gaturrona from 'public/Sources_Images/gaturrona.jpg';
+import gaturrona from '.public/Sources_Images/gaturrona.jpg';
 
 function App() {
   return (
