@@ -1,20 +1,20 @@
 import React from 'react';
+// Importamos la imagen dándole un nombre (puedes llamarle gaturrona)
+import gaturrona from './Sources_Images/gaturroña.jpg'; 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <h1>Hola, soy Angy</h1>
         <p>Estudiante de Ingeniería en Computación Inteligente</p>
       </header>
       <section>
         <h2>Mi Stack Tecnológico</h2>
         <p>Python, Docker, SQL y Azure</p>
+        {/* Usamos el nombre que le dimos en el import entre llaves */}
+        <img src={gaturrona} alt="Mi Imagen" style={{ width: '300px' }} />
       </section>
-      <div>
-        <h2>Image holder</h2>
-        <img src="public\Sources_Images\gaturroña.jpg" alt="My Image"></img>
-      </div>
     </div>
   );
 }
