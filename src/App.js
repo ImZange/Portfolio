@@ -14,10 +14,10 @@ function App() {
         <p>Python, Docker, SQL y Azure</p>
         <img src={gaturrona} alt="Mi Imagen" style={{ width: '300px' }} />
       </section>
-    </div>
-    <div id="medium">
-      <h2>Mi Blog en Medium</h2>
-      <a href="https://medium.com/@angy" target="_blank" rel="noopener noreferrer">Visita mi blog en Medium</a> 
+      <div id="medium">
+        <h2>Mi Blog en Medium</h2>
+        <a href="https://medium.com/@angy" target="_blank" rel="noopener noreferrer">Visita mi blog en Medium</a> 
+      </div>
     </div>
   );
 }
