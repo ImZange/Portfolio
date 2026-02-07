@@ -106,17 +106,27 @@ function App() {
       </section>
 
       {/* --- FOOTER / CONTACTO --- */}
+      {/* --- FOOTER / CONTACTO --- */}
       <footer id="contact" className="footer">
         <div className="container">
             <h2>¿Trabajamos juntos?</h2>
             <p>Estoy disponible para nuevos retos y colaboraciones.</p>
             <div className="social-links">
-                <a href="https://medium.com/@angy" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
-                <a href="mailto:hola@angy.com"><i className="fas fa-envelope"></i></a>
-                <a href="#"><i className="fab fa-linkedin"></i></a>
-                <a href="#"><i className="fab fa-github"></i></a>
+                <a href="https://medium.com/@angy" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+                    <i className="fab fa-medium"></i>
+                </a>
+                <a href="mailto:hola@angy.com" aria-label="Email">
+                    <i className="fas fa-envelope"></i>
+                </a>
+                {/* SOLUCIÓN: Cambiamos # por enlaces genéricos o tu URL real */}
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i className="fab fa-github"></i>
+                </a>
             </div>
-            <p className="copyright">© 2024 Angy. Hecho con React.</p>
+            <p className="copyright">© 2026 Angy. Hecho con React.</p>
         </div>
       </footer>
     </div>
