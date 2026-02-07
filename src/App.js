@@ -19,7 +19,7 @@ function App() {
       {/* --- HERO (Encabezado) --- */}
       <header className="hero">
         <div className="hero-content">
-            <p className="tagline">Data Engineer and Scientist</p>
+            <p className="tagline">Cientifico de Datos</p>
             <h1>HOLA, SOY <span className="highlight">ANGY</span></h1>
             <p className="role">Estudiante de Ingeniería en Computación Inteligente</p>
             <a href="#contact" className="btn-primary">Contáctame</a>
